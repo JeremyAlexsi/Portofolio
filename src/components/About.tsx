@@ -23,11 +23,12 @@ export const softwareEngineer = {
     "Relational DBMS Design & Query Optimization",
     "Web Development (PHP, CodeIgniter, Laravel)",
     "Quality Assurance & Comprehensive Testing",
+    "Machine Learning Implementation (Python & Model Training)",
     "Agile Project Coordination (Scrum)",
     "AI-Assisted Vibe Coding Workflows",
     "Interactive Game Dev (Unity & GameMaker)"
   ],
-  status: "Open to Software Engineering Roles"
+  status: "Open to Software Engineering & AI/ML Roles"
 };`;
 
   const highlights = [
@@ -51,9 +52,9 @@ export const softwareEngineer = {
     },
     {
       icon: <Sparkles className="w-5 h-5 text-[#ff5400]" />,
-      title: "Quality Assurance & AI Vibe Coding",
-      institution: "Software Testing & Modern Development",
-      desc: "Melakukan pengujian fungsional untuk memastikan aplikasi berjalan stabil, didukung pemanfaatan AI untuk mempercepat analisis dan penulisan kode."
+      title: "Machine Learning & AI Workflow",
+      institution: "Python, Scikit-Learn (Random Forest) & AI Tools",
+      desc: "Implementasi model Machine Learning untuk prediksi data (Happy Health Android) serta penerapan alur kerja AI demi efisiensi tinggi."
     },
     {
       icon: <Gamepad2 className="w-5 h-5 text-purple-500" />,
@@ -194,9 +195,9 @@ export const softwareEngineer = {
                     <ShieldCheck className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900 dark:text-white text-xs sm:text-sm">Web Dev, QA & AI Workflow</h4>
+                    <h4 className="font-bold text-slate-900 dark:text-white text-xs sm:text-sm">Web Dev, QA & Machine Learning</h4>
                     <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                      Pengembangan web modern, pengujian QA yang teliti, serta workflow efisien berbasis tools AI.
+                      Pengembangan web modern, pengujian QA yang teliti, implementasi model Machine Learning dengan Python, serta alur kerja AI.
                     </p>
                   </div>
                 </div>
@@ -304,7 +305,7 @@ export const softwareEngineer = {
                   Siap untuk Berkolaborasi
                 </h4>
                 <p className="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 mt-0.5">
-                  Terbuka untuk peluang kerja Software Engineer, Systems Analyst, maupun Web Developer.
+                  Terbuka untuk peluang kerja Software Engineer, Web Developer, Systems Analyst, maupun posisi terkait AI &amp; Machine Learning.
                 </p>
               </div>
               <a

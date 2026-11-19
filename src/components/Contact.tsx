@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
             Mari Terhubung
           </h2>
           <p className="text-slate-600 dark:text-slate-300 text-base sm:text-lg">
-            Terbuka untuk peluang kerja Software Engineer, Systems Analyst, Web Developer, maupun kolaborasi proyek.
+            Terbuka untuk peluang kerja Software Engineer, Web Developer, Systems Analyst, peran terkait AI &amp; Machine Learning, maupun kolaborasi proyek.
           </p>
         </div>
 

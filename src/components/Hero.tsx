@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
 
             {/* Subtitle Role */}
             <div className="text-base sm:text-xl font-bold text-slate-700 dark:text-slate-200 mb-4 font-mono">
-              Software Engineer <span className="text-cyan-500">|</span> Systems Analyst &amp; Web Dev
+              Software Engineer <span className="text-cyan-500">|</span> Web Dev &amp; Systems Analyst <span className="text-[#ff5400]">|</span> AI/ML
             </div>
 
             {/* Bio Description */}

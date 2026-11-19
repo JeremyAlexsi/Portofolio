@@ -2,9 +2,9 @@ import { ProjectItem, SkillCategory, ExperienceItem } from '../types';
 
 export const PERSONAL_INFO = {
   name: "Jeremy Alexander",
-  role: "Software Engineer | Systems Analyst & Web Developer",
-  tagline: "Lulusan D4 Teknik Informatika Politeknik Caltex Riau dengan fokus pada Software Engineering, Web Development (PHP, CodeIgniter, Laravel), Database Management, dan Quality Assurance.",
-  bio: "Lulusan D4 Teknik Informatika Politeknik Caltex Riau dengan fokus pada Software Engineering. Berpengalaman dalam siklus pengembangan aplikasi end-to-end, mulai dari Systems Analysis, perancangan database (DBMS), hingga implementasi Web Development dengan PHP (Laravel & CodeIgniter). Terbiasa dengan standar Quality Assurance untuk membangun sistem yang andal dan terstruktur, serta adaptif memanfaatkan tools modern dan workflow AI Vibe Coding untuk efisiensi pengembangan. Memiliki minat eksploratif pada media interaktif dan Game Development menggunakan Unity & GameMaker Studio.",
+  role: "Software Engineer | Web Developer & Systems Analyst",
+  tagline: "Lulusan D4 Teknik Informatika Politeknik Caltex Riau dengan fokus pada Software Engineering, Web Development (PHP), Database Management, Quality Assurance, serta implementasi Machine Learning & AI.",
+  bio: "Lulusan D4 Teknik Informatika Politeknik Caltex Riau dengan fokus pada Software Engineering. Berpengalaman dalam siklus pengembangan aplikasi end-to-end, mulai dari Systems Analysis, perancangan database (DBMS), hingga implementasi Web Development dengan PHP (Laravel & CodeIgniter). Terbiasa dengan standar Quality Assurance untuk membangun sistem yang andal, serta memiliki keahlian dalam implementasi Machine Learning menggunakan Python (seperti pemodelan Random Forest) dan pemanfaatan alur kerja AI modern. Terbuka untuk peluang kerja Software Engineer, Web Developer, Systems Analyst, maupun posisi terkait AI Engineering & Machine Learning sesuai dengan proyek dan kompetensi yang telah dibangun.",
   status: "Open for Opportunities",
   avatar: "/avatar.jpg",
   email: "jeremy.a.siregar@gmail.com",
@@ -71,15 +71,15 @@ export const PROJECTS: ProjectItem[] = [
     gradient: "from-purple-500/25 via-indigo-600/20 to-cyan-600/25"
   },
   {
-    id: "happy-health-android",
-    title: "Happy Health - Obesity & Lifestyle Analyzer",
-    subtitle: "Aplikasi Android Analisis Risiko Obesitas Berbasis Gaya Hidup",
-    description: "Proyek aplikasi mobile Android yang dibuat khusus untuk mengukur dan memonitor tingkat obesitas seseorang berdasarkan analisis pola gaya hidup, konsumsi kalori, serta kebiasaan aktivitas harian yang dilakukan pengguna.",
-    tags: ["Android", "Java / Kotlin", "Health Algorithm", "Mobile Development", "BMI Analyzer"],
-    category: "Mobile App",
-    metrics: "Lifestyle Analytics | Health Assessment",
-    gradient: "from-emerald-500/25 via-cyan-600/20 to-blue-600/25"
-  },
+  id: "happy-health-android",
+  title: "Happy Health - Obesity & Lifestyle Analyzer",
+  subtitle: "Aplikasi Android Prediksi Risiko Obesitas dengan Model Random Forest",
+  description: "Aplikasi mobile Android untuk memprediksi dan memonitor tingkat risiko obesitas menggunakan model Machine Learning Random Forest yang telah dilatih berdasarkan analisis pola gaya hidup, asupan kalori, dan kebiasaan aktivitas harian pengguna.",
+  tags: ["Android", "Java / Kotlin", "Random Forest", "Machine Learning", "Mobile Development"],
+  category: "Mobile App",
+  metrics: "Random Forest Model | Lifestyle Analytics",
+  gradient: "from-emerald-500/25 via-cyan-600/20 to-blue-600/25"
+},
   {
     id: "zombie-shooter-game",
     title: "Zombie Shooter - Top Down Action Survival",
