@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLenis } from './SmoothScroll';
 import { PERSONAL_INFO } from '../data/portfolioData';
-import { ArrowUp, Terminal, Clock, GitCommit, Flame } from 'lucide-react';
+import { ArrowUp, Terminal, Flame } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { scrollTo } = useLenis();
@@ -48,7 +48,7 @@ export const Footer: React.FC = () => {
   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
   Open to Work • On-site / Remote
 </span>
-
+<span>{time}</span>
           {/* Back to top button */}
           <button
             onClick={() => scrollTo('#hero', { offset: 0, duration: 1.8 })}
